@@ -1,11 +1,11 @@
-const CACHE_NAME = 'mon-app-cache-v1';
+const CACHE_NAME = 'mon-app-cache-v2'; // Version mise à jour pour forcer le cache
 const URLS_A_GARDER = [
   '/',
   '/index.html',
   '/style.css',
   '/main.js',
   '/manifest.json',
-  'icone.png'  // L'icône est maintenant ici
+  'icon.png'  // Le nouveau fichier icône
 ];
 
 self.addEventListener('install', event => {
